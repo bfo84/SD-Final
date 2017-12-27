@@ -1,6 +1,8 @@
 package br.com.ufu.thrift.server;
 
 import java.io.File;
+import java.io.InputStream;
+import java.net.URISyntaxException;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -21,8 +23,9 @@ import io.atomix.copycat.server.storage.StorageLevel;
 public class StartServer {
 	
 	public static void main(String[] args) {
-		PropertyConfigurator.configure("resources/log4j.properties");
 		try {
+			InputStream is = new StartServer().getClass().getClassLoader().getResourceAsStream("resources/log4j.properties");
+			PropertyConfigurator.configure(is);
 			// Fazer um cronômetro para que cada nó aguarde x segundos antes de
 			// iniciar sua execução
 			System.out.println("Ativando servidores...");
@@ -81,6 +84,6 @@ public class StartServer {
 			System.out.println("O servidor THRIFT não pôde ser iniciado.");
 		} catch (InterruptedException ex) {
 			System.out.println("Um servidor foi interrompido.");
-		}
+		} 
 	}
 }
