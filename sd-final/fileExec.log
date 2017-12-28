@@ -1,0 +1,772 @@
+2017-12-28 09:49:45 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-12-28 09:49:45 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2017-12-28 09:49:45 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-12-28 09:49:45 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-12-28 09:49:45 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-12-28 09:49:45 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-12-28 09:49:45 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-12-28 09:49:45 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-12-28 09:49:45 DEBUG Cleaner0:76 - java.nio.ByteBuffer.cleaner(): available
+2017-12-28 09:49:45 DEBUG PlatformDependent:71 - Platform: Windows
+2017-12-28 09:49:45 DEBUG PlatformDependent:76 - Java version: 8
+2017-12-28 09:49:45 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2017-12-28 09:49:45 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-12-28 09:49:45 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2017-12-28 09:49:45 DEBUG PlatformDependent:71 - Javassist: unavailable
+2017-12-28 09:49:45 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2017-12-28 09:49:45 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\TQI_BO~1\AppData\Local\Temp (java.io.tmpdir)
+2017-12-28 09:49:45 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-12-28 09:49:45 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-12-28 09:49:45 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 3790077952 bytes
+2017-12-28 09:49:45 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2017-12-28 09:49:45 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-12-28 09:49:45 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-12-28 09:51:11 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-12-28 09:51:11 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2017-12-28 09:51:11 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-12-28 09:51:11 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-12-28 09:51:11 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-12-28 09:51:11 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-12-28 09:51:11 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-12-28 09:51:11 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-12-28 09:51:11 DEBUG Cleaner0:76 - java.nio.ByteBuffer.cleaner(): available
+2017-12-28 09:51:11 DEBUG PlatformDependent:71 - Platform: Windows
+2017-12-28 09:51:11 DEBUG PlatformDependent:76 - Java version: 8
+2017-12-28 09:51:11 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2017-12-28 09:51:11 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-12-28 09:51:11 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2017-12-28 09:51:11 DEBUG PlatformDependent:71 - Javassist: unavailable
+2017-12-28 09:51:11 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2017-12-28 09:51:11 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\TQI_BO~1\AppData\Local\Temp (java.io.tmpdir)
+2017-12-28 09:51:11 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-12-28 09:51:11 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-12-28 09:51:11 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 3790077952 bytes
+2017-12-28 09:51:11 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2017-12-28 09:51:11 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-12-28 09:51:11 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-12-28 09:53:57 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-12-28 09:53:57 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2017-12-28 09:53:57 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-12-28 09:53:57 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-12-28 09:53:57 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-12-28 09:53:57 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-12-28 09:53:57 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-12-28 09:53:57 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-12-28 09:53:57 DEBUG Cleaner0:76 - java.nio.ByteBuffer.cleaner(): available
+2017-12-28 09:53:57 DEBUG PlatformDependent:71 - Platform: Windows
+2017-12-28 09:53:57 DEBUG PlatformDependent:76 - Java version: 8
+2017-12-28 09:53:57 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2017-12-28 09:53:57 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-12-28 09:53:57 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2017-12-28 09:53:57 DEBUG PlatformDependent:71 - Javassist: unavailable
+2017-12-28 09:53:57 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2017-12-28 09:53:57 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\TQI_BO~1\AppData\Local\Temp (java.io.tmpdir)
+2017-12-28 09:53:57 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-12-28 09:53:57 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-12-28 09:53:57 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 3790077952 bytes
+2017-12-28 09:53:57 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2017-12-28 09:53:57 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-12-28 09:53:57 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-12-28 09:55:20 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-12-28 09:55:20 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2017-12-28 09:55:21 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-12-28 09:55:21 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-12-28 09:55:21 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-12-28 09:55:21 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-12-28 09:55:21 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-12-28 09:55:21 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-12-28 09:55:21 DEBUG Cleaner0:76 - java.nio.ByteBuffer.cleaner(): available
+2017-12-28 09:55:21 DEBUG PlatformDependent:71 - Platform: Windows
+2017-12-28 09:55:21 DEBUG PlatformDependent:76 - Java version: 8
+2017-12-28 09:55:21 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2017-12-28 09:55:21 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-12-28 09:55:21 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2017-12-28 09:55:21 DEBUG PlatformDependent:71 - Javassist: unavailable
+2017-12-28 09:55:21 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2017-12-28 09:55:21 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\TQI_BO~1\AppData\Local\Temp (java.io.tmpdir)
+2017-12-28 09:55:21 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-12-28 09:55:21 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-12-28 09:55:22 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 3790077952 bytes
+2017-12-28 09:55:22 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2017-12-28 09:55:22 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-12-28 09:55:22 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-12-28 09:55:40 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 8
+2017-12-28 09:55:40 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 8
+2017-12-28 09:55:40 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2017-12-28 09:55:40 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2017-12-28 09:55:40 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2017-12-28 09:55:40 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2017-12-28 09:55:40 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2017-12-28 09:55:40 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2017-12-28 09:55:40 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-12-28 09:55:40 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-12-28 09:55:41 DEBUG SegmentManager:323 - Created segment: Segment[id=1, version=1, index=0, length=0]
+2017-12-28 09:55:43 INFO  NettyServer:121 - Binding to localhost/127.0.0.1:7071
+2017-12-28 09:55:43 DEBUG DefaultChannelId:76 - -Dio.netty.processId: 8960 (auto-detected)
+2017-12-28 09:55:43 DEBUG NetUtil:76 - -Djava.net.preferIPv4Stack: false
+2017-12-28 09:55:43 DEBUG NetUtil:76 - -Djava.net.preferIPv6Addresses: false
+2017-12-28 09:55:43 DEBUG NetUtil:86 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-12-28 09:55:43 DEBUG NetUtil:81 - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2017-12-28 09:55:43 DEBUG DefaultChannelId:76 - -Dio.netty.machineId: 2c:59:e5:ff:fe:be:73:e4 (auto-detected)
+2017-12-28 09:55:43 DEBUG ThreadLocalRandom:71 - -Dio.netty.initialSeedUniquifier: 0x406d1ae1a5edb962
+2017-12-28 09:55:43 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2017-12-28 09:55:43 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2017-12-28 09:55:43 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: pooled
+2017-12-28 09:55:43 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-12-28 09:55:43 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-12-28 09:55:44 DEBUG LoggingHandler:71 - [id: 0x483c5385] REGISTERED
+2017-12-28 09:55:44 DEBUG LoggingHandler:71 - [id: 0x483c5385] BIND: localhost/127.0.0.1:7071
+2017-12-28 09:55:44 INFO  NettyServer:128 - Listening at /127.0.0.1:7071
+2017-12-28 09:55:44 DEBUG LoggingHandler:71 - [id: 0x483c5385, L:/127.0.0.1:7071] ACTIVE
+2017-12-28 09:55:44 INFO  ServerContext:598 - localhost/127.0.0.1:7071 - Transitioning to FOLLOWER
+2017-12-28 09:55:45 DEBUG FollowerState:85 - localhost/127.0.0.1:7071 - Heartbeat timed out in PT0.903S
+2017-12-28 09:55:45 INFO  ServerContext:598 - localhost/127.0.0.1:7071 - Transitioning to CANDIDATE
+2017-12-28 09:55:45 INFO  CandidateState:64 - localhost/127.0.0.1:7071 - Starting election
+2017-12-28 09:55:45 DEBUG ServerContext:316 - localhost/127.0.0.1:7071 - Set term 1
+2017-12-28 09:55:45 DEBUG ServerContext:345 - localhost/127.0.0.1:7071 - Voted for localhost/127.0.0.1:7071
+2017-12-28 09:55:45 INFO  ServerContext:598 - localhost/127.0.0.1:7071 - Transitioning to LEADER
+2017-12-28 09:55:45 DEBUG CandidateState:227 - localhost/127.0.0.1:7071 - Cancelling election
+2017-12-28 09:55:45 INFO  ServerContext:261 - localhost/127.0.0.1:7071 - Found leader localhost/127.0.0.1:7071
+2017-12-28 09:55:45 INFO  CopycatServer:684 - Server started successfully!
+2017-12-28 09:58:48 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-12-28 09:58:48 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2017-12-28 09:58:48 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-12-28 09:58:48 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-12-28 09:58:48 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-12-28 09:58:48 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-12-28 09:58:48 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-12-28 09:58:48 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-12-28 09:58:48 DEBUG Cleaner0:76 - java.nio.ByteBuffer.cleaner(): available
+2017-12-28 09:58:48 DEBUG PlatformDependent:71 - Platform: Windows
+2017-12-28 09:58:48 DEBUG PlatformDependent:76 - Java version: 8
+2017-12-28 09:58:48 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2017-12-28 09:58:48 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-12-28 09:58:48 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2017-12-28 09:58:48 DEBUG PlatformDependent:71 - Javassist: unavailable
+2017-12-28 09:58:48 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2017-12-28 09:58:48 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\TQI_BO~1\AppData\Local\Temp (java.io.tmpdir)
+2017-12-28 09:58:48 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-12-28 09:58:48 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-12-28 09:58:48 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 3790077952 bytes
+2017-12-28 09:58:48 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2017-12-28 09:58:48 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-12-28 09:58:48 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-12-28 09:58:56 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 8
+2017-12-28 09:58:56 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 8
+2017-12-28 09:58:56 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2017-12-28 09:58:56 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2017-12-28 09:58:56 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2017-12-28 09:58:56 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2017-12-28 09:58:56 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2017-12-28 09:58:56 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2017-12-28 09:58:56 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-12-28 09:58:56 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-12-28 09:58:56 DEBUG SegmentManager:375 - Loaded file segment: 1 (copycat-1-1.log)
+2017-12-28 09:58:56 DEBUG SegmentManager:469 - Found segment: 1 (copycat-1-1.log)
+2017-12-28 09:58:56 INFO  NettyServer:121 - Binding to localhost/127.0.0.1:7071
+2017-12-28 09:58:56 DEBUG DefaultChannelId:76 - -Dio.netty.processId: 884 (auto-detected)
+2017-12-28 09:58:56 DEBUG NetUtil:76 - -Djava.net.preferIPv4Stack: false
+2017-12-28 09:58:56 DEBUG NetUtil:76 - -Djava.net.preferIPv6Addresses: false
+2017-12-28 09:58:57 DEBUG NetUtil:86 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-12-28 09:58:57 DEBUG NetUtil:81 - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2017-12-28 09:58:57 DEBUG DefaultChannelId:76 - -Dio.netty.machineId: 2c:59:e5:ff:fe:be:73:e4 (auto-detected)
+2017-12-28 09:58:57 DEBUG ThreadLocalRandom:71 - -Dio.netty.initialSeedUniquifier: 0x96ac3e012e5af2b5
+2017-12-28 09:58:57 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2017-12-28 09:58:57 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2017-12-28 09:58:57 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: pooled
+2017-12-28 09:58:57 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-12-28 09:58:57 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-12-28 09:58:57 DEBUG LoggingHandler:71 - [id: 0x3576136f] REGISTERED
+2017-12-28 09:58:57 DEBUG LoggingHandler:71 - [id: 0x3576136f] BIND: localhost/127.0.0.1:7071
+2017-12-28 09:58:57 INFO  NettyServer:128 - Listening at /127.0.0.1:7071
+2017-12-28 09:58:57 DEBUG LoggingHandler:71 - [id: 0x3576136f, L:/127.0.0.1:7071] ACTIVE
+2017-12-28 09:58:57 INFO  ServerContext:598 - localhost/127.0.0.1:7071 - Transitioning to FOLLOWER
+2017-12-28 09:58:58 DEBUG FollowerState:85 - localhost/127.0.0.1:7071 - Heartbeat timed out in PT1.232S
+2017-12-28 09:58:58 INFO  ServerContext:598 - localhost/127.0.0.1:7071 - Transitioning to CANDIDATE
+2017-12-28 09:58:58 INFO  CandidateState:64 - localhost/127.0.0.1:7071 - Starting election
+2017-12-28 09:58:58 DEBUG ServerContext:316 - localhost/127.0.0.1:7071 - Set term 2
+2017-12-28 09:58:58 DEBUG ServerContext:345 - localhost/127.0.0.1:7071 - Voted for localhost/127.0.0.1:7071
+2017-12-28 09:58:58 INFO  ServerContext:598 - localhost/127.0.0.1:7071 - Transitioning to LEADER
+2017-12-28 09:58:58 DEBUG CandidateState:227 - localhost/127.0.0.1:7071 - Cancelling election
+2017-12-28 09:58:58 INFO  ServerContext:261 - localhost/127.0.0.1:7071 - Found leader localhost/127.0.0.1:7071
+2017-12-28 09:58:58 INFO  CopycatServer:684 - Server started successfully!
+2017-12-28 10:29:14 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-12-28 10:29:14 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2017-12-28 10:29:14 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-12-28 10:29:14 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-12-28 10:29:14 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-12-28 10:29:14 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-12-28 10:29:14 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-12-28 10:29:14 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-12-28 10:29:14 DEBUG Cleaner0:76 - java.nio.ByteBuffer.cleaner(): available
+2017-12-28 10:29:14 DEBUG PlatformDependent:71 - Platform: Windows
+2017-12-28 10:29:14 DEBUG PlatformDependent:76 - Java version: 8
+2017-12-28 10:29:14 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2017-12-28 10:29:14 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-12-28 10:29:14 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2017-12-28 10:29:14 DEBUG PlatformDependent:71 - Javassist: unavailable
+2017-12-28 10:29:14 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2017-12-28 10:29:14 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\TQI_BO~1\AppData\Local\Temp (java.io.tmpdir)
+2017-12-28 10:29:14 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-12-28 10:29:14 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-12-28 10:29:14 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 3790077952 bytes
+2017-12-28 10:29:14 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2017-12-28 10:29:14 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-12-28 10:29:14 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-12-28 10:29:22 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 8
+2017-12-28 10:29:22 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 8
+2017-12-28 10:29:22 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2017-12-28 10:29:22 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2017-12-28 10:29:22 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2017-12-28 10:29:22 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2017-12-28 10:29:22 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2017-12-28 10:29:22 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2017-12-28 10:29:22 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-12-28 10:29:22 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-12-28 10:29:22 DEBUG SegmentManager:375 - Loaded file segment: 1 (copycat-1-1.log)
+2017-12-28 10:29:22 DEBUG SegmentManager:469 - Found segment: 1 (copycat-1-1.log)
+2017-12-28 10:29:22 INFO  NettyServer:121 - Binding to localhost/127.0.0.1:7071
+2017-12-28 10:29:22 DEBUG DefaultChannelId:76 - -Dio.netty.processId: 9944 (auto-detected)
+2017-12-28 10:29:22 DEBUG NetUtil:76 - -Djava.net.preferIPv4Stack: false
+2017-12-28 10:29:22 DEBUG NetUtil:76 - -Djava.net.preferIPv6Addresses: false
+2017-12-28 10:29:22 DEBUG NetUtil:86 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-12-28 10:29:22 DEBUG NetUtil:81 - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2017-12-28 10:29:23 DEBUG DefaultChannelId:76 - -Dio.netty.machineId: 2c:59:e5:ff:fe:be:73:e4 (auto-detected)
+2017-12-28 10:29:23 DEBUG ThreadLocalRandom:71 - -Dio.netty.initialSeedUniquifier: 0x641a5ae15a243ba4
+2017-12-28 10:29:23 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2017-12-28 10:29:23 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2017-12-28 10:29:23 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: pooled
+2017-12-28 10:29:23 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-12-28 10:29:23 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-12-28 10:29:23 DEBUG LoggingHandler:71 - [id: 0x63cdaa39] REGISTERED
+2017-12-28 10:29:23 DEBUG LoggingHandler:71 - [id: 0x63cdaa39] BIND: localhost/127.0.0.1:7071
+2017-12-28 10:29:23 INFO  NettyServer:128 - Listening at /127.0.0.1:7071
+2017-12-28 10:29:23 DEBUG LoggingHandler:71 - [id: 0x63cdaa39, L:/127.0.0.1:7071] ACTIVE
+2017-12-28 10:29:23 INFO  ServerContext:598 - localhost/127.0.0.1:7071 - Transitioning to FOLLOWER
+2017-12-28 10:29:24 DEBUG FollowerState:85 - localhost/127.0.0.1:7071 - Heartbeat timed out in PT1.311S
+2017-12-28 10:29:24 INFO  ServerContext:598 - localhost/127.0.0.1:7071 - Transitioning to CANDIDATE
+2017-12-28 10:29:24 INFO  CandidateState:64 - localhost/127.0.0.1:7071 - Starting election
+2017-12-28 10:29:24 DEBUG ServerContext:316 - localhost/127.0.0.1:7071 - Set term 3
+2017-12-28 10:29:24 DEBUG ServerContext:345 - localhost/127.0.0.1:7071 - Voted for localhost/127.0.0.1:7071
+2017-12-28 10:29:24 INFO  ServerContext:598 - localhost/127.0.0.1:7071 - Transitioning to LEADER
+2017-12-28 10:29:24 DEBUG CandidateState:227 - localhost/127.0.0.1:7071 - Cancelling election
+2017-12-28 10:29:24 INFO  ServerContext:261 - localhost/127.0.0.1:7071 - Found leader localhost/127.0.0.1:7071
+2017-12-28 10:29:24 INFO  CopycatServer:684 - Server started successfully!
+2017-12-28 11:29:59 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-12-28 11:29:59 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2017-12-28 11:29:59 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-12-28 11:29:59 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-12-28 11:29:59 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-12-28 11:29:59 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-12-28 11:29:59 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-12-28 11:29:59 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-12-28 11:29:59 DEBUG Cleaner0:76 - java.nio.ByteBuffer.cleaner(): available
+2017-12-28 11:29:59 DEBUG PlatformDependent:71 - Platform: Windows
+2017-12-28 11:29:59 DEBUG PlatformDependent:76 - Java version: 8
+2017-12-28 11:29:59 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2017-12-28 11:29:59 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-12-28 11:29:59 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2017-12-28 11:29:59 DEBUG PlatformDependent:71 - Javassist: unavailable
+2017-12-28 11:29:59 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2017-12-28 11:29:59 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\TQI_BO~1\AppData\Local\Temp (java.io.tmpdir)
+2017-12-28 11:29:59 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-12-28 11:29:59 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-12-28 11:29:59 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 3790077952 bytes
+2017-12-28 11:29:59 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2017-12-28 11:29:59 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-12-28 11:29:59 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-12-28 11:30:03 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-12-28 11:30:03 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2017-12-28 11:30:03 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-12-28 11:30:03 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-12-28 11:30:03 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-12-28 11:30:03 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-12-28 11:30:03 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-12-28 11:30:03 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-12-28 11:30:03 DEBUG Cleaner0:76 - java.nio.ByteBuffer.cleaner(): available
+2017-12-28 11:30:03 DEBUG PlatformDependent:71 - Platform: Windows
+2017-12-28 11:30:03 DEBUG PlatformDependent:76 - Java version: 8
+2017-12-28 11:30:03 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2017-12-28 11:30:03 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-12-28 11:30:03 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2017-12-28 11:30:03 DEBUG PlatformDependent:71 - Javassist: unavailable
+2017-12-28 11:30:03 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2017-12-28 11:30:03 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\TQI_BO~1\AppData\Local\Temp (java.io.tmpdir)
+2017-12-28 11:30:03 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-12-28 11:30:03 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-12-28 11:30:03 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 3790077952 bytes
+2017-12-28 11:30:03 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2017-12-28 11:30:03 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-12-28 11:30:03 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-12-28 11:30:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 8
+2017-12-28 11:30:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 8
+2017-12-28 11:30:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2017-12-28 11:30:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2017-12-28 11:30:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2017-12-28 11:30:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2017-12-28 11:30:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2017-12-28 11:30:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2017-12-28 11:30:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-12-28 11:30:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-12-28 11:30:07 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-12-28 11:30:07 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2017-12-28 11:30:07 DEBUG SegmentManager:375 - Loaded file segment: 1 (copycat-1-1.log)
+2017-12-28 11:30:07 DEBUG SegmentManager:469 - Found segment: 1 (copycat-1-1.log)
+2017-12-28 11:30:07 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-12-28 11:30:07 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-12-28 11:30:07 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-12-28 11:30:07 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-12-28 11:30:07 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-12-28 11:30:07 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-12-28 11:30:07 DEBUG Cleaner0:76 - java.nio.ByteBuffer.cleaner(): available
+2017-12-28 11:30:07 DEBUG PlatformDependent:71 - Platform: Windows
+2017-12-28 11:30:07 DEBUG PlatformDependent:76 - Java version: 8
+2017-12-28 11:30:07 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2017-12-28 11:30:07 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-12-28 11:30:07 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2017-12-28 11:30:07 DEBUG PlatformDependent:71 - Javassist: unavailable
+2017-12-28 11:30:07 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2017-12-28 11:30:07 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\TQI_BO~1\AppData\Local\Temp (java.io.tmpdir)
+2017-12-28 11:30:07 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-12-28 11:30:07 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-12-28 11:30:07 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 3790077952 bytes
+2017-12-28 11:30:07 INFO  NettyServer:121 - Binding to localhost/127.0.0.1:7071
+2017-12-28 11:30:07 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2017-12-28 11:30:07 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-12-28 11:30:07 DEBUG DefaultChannelId:76 - -Dio.netty.processId: 8336 (auto-detected)
+2017-12-28 11:30:07 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-12-28 11:30:07 DEBUG NetUtil:76 - -Djava.net.preferIPv4Stack: false
+2017-12-28 11:30:07 DEBUG NetUtil:76 - -Djava.net.preferIPv6Addresses: false
+2017-12-28 11:30:07 DEBUG NetUtil:86 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-12-28 11:30:07 DEBUG NetUtil:81 - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2017-12-28 11:30:07 DEBUG DefaultChannelId:76 - -Dio.netty.machineId: 2c:59:e5:ff:fe:be:73:e4 (auto-detected)
+2017-12-28 11:30:07 DEBUG ThreadLocalRandom:71 - -Dio.netty.initialSeedUniquifier: 0xf89298c9ca53fe1d
+2017-12-28 11:30:07 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2017-12-28 11:30:07 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2017-12-28 11:30:07 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: pooled
+2017-12-28 11:30:07 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-12-28 11:30:07 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-12-28 11:30:07 DEBUG LoggingHandler:71 - [id: 0x99fb4a10] REGISTERED
+2017-12-28 11:30:07 DEBUG LoggingHandler:71 - [id: 0x99fb4a10] BIND: localhost/127.0.0.1:7071
+2017-12-28 11:30:07 INFO  NettyServer:128 - Listening at /127.0.0.1:7071
+2017-12-28 11:30:07 DEBUG LoggingHandler:71 - [id: 0x99fb4a10, L:/127.0.0.1:7071] ACTIVE
+2017-12-28 11:30:07 INFO  ServerContext:598 - localhost/127.0.0.1:7071 - Transitioning to FOLLOWER
+2017-12-28 11:30:08 DEBUG FollowerState:85 - localhost/127.0.0.1:7071 - Heartbeat timed out in PT0.781S
+2017-12-28 11:30:08 INFO  ServerContext:598 - localhost/127.0.0.1:7071 - Transitioning to CANDIDATE
+2017-12-28 11:30:08 INFO  CandidateState:64 - localhost/127.0.0.1:7071 - Starting election
+2017-12-28 11:30:08 DEBUG ServerContext:316 - localhost/127.0.0.1:7071 - Set term 4
+2017-12-28 11:30:08 DEBUG ServerContext:345 - localhost/127.0.0.1:7071 - Voted for localhost/127.0.0.1:7071
+2017-12-28 11:30:08 INFO  ServerContext:598 - localhost/127.0.0.1:7071 - Transitioning to LEADER
+2017-12-28 11:30:08 DEBUG CandidateState:227 - localhost/127.0.0.1:7071 - Cancelling election
+2017-12-28 11:30:08 INFO  ServerContext:261 - localhost/127.0.0.1:7071 - Found leader localhost/127.0.0.1:7071
+2017-12-28 11:30:08 INFO  CopycatServer:684 - Server started successfully!
+2017-12-28 11:30:09 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-12-28 11:30:09 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2017-12-28 11:30:09 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-12-28 11:30:09 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-12-28 11:30:09 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-12-28 11:30:09 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-12-28 11:30:09 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-12-28 11:30:09 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-12-28 11:30:09 DEBUG Cleaner0:76 - java.nio.ByteBuffer.cleaner(): available
+2017-12-28 11:30:09 DEBUG PlatformDependent:71 - Platform: Windows
+2017-12-28 11:30:09 DEBUG PlatformDependent:76 - Java version: 8
+2017-12-28 11:30:09 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2017-12-28 11:30:09 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-12-28 11:30:09 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2017-12-28 11:30:09 DEBUG PlatformDependent:71 - Javassist: unavailable
+2017-12-28 11:30:09 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2017-12-28 11:30:09 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\TQI_BO~1\AppData\Local\Temp (java.io.tmpdir)
+2017-12-28 11:30:09 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-12-28 11:30:09 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-12-28 11:30:09 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 3790077952 bytes
+2017-12-28 11:30:09 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2017-12-28 11:30:09 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-12-28 11:30:09 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-12-28 11:30:10 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-12-28 11:30:10 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2017-12-28 11:30:10 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-12-28 11:30:10 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-12-28 11:30:10 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-12-28 11:30:10 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-12-28 11:30:10 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-12-28 11:30:10 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-12-28 11:30:10 DEBUG Cleaner0:76 - java.nio.ByteBuffer.cleaner(): available
+2017-12-28 11:30:10 DEBUG PlatformDependent:71 - Platform: Windows
+2017-12-28 11:30:10 DEBUG PlatformDependent:76 - Java version: 8
+2017-12-28 11:30:10 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2017-12-28 11:30:10 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-12-28 11:30:10 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2017-12-28 11:30:10 DEBUG PlatformDependent:71 - Javassist: unavailable
+2017-12-28 11:30:10 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2017-12-28 11:30:10 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\TQI_BO~1\AppData\Local\Temp (java.io.tmpdir)
+2017-12-28 11:30:10 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-12-28 11:30:10 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-12-28 11:30:10 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 3790077952 bytes
+2017-12-28 11:30:10 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2017-12-28 11:30:10 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-12-28 11:30:10 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-12-28 11:30:11 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-12-28 11:30:11 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2017-12-28 11:30:11 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-12-28 11:30:11 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-12-28 11:30:11 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-12-28 11:30:11 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-12-28 11:30:11 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-12-28 11:30:11 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-12-28 11:30:11 DEBUG Cleaner0:76 - java.nio.ByteBuffer.cleaner(): available
+2017-12-28 11:30:11 DEBUG PlatformDependent:71 - Platform: Windows
+2017-12-28 11:30:11 DEBUG PlatformDependent:76 - Java version: 8
+2017-12-28 11:30:11 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2017-12-28 11:30:11 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-12-28 11:30:11 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2017-12-28 11:30:11 DEBUG PlatformDependent:71 - Javassist: unavailable
+2017-12-28 11:30:11 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2017-12-28 11:30:11 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\TQI_BO~1\AppData\Local\Temp (java.io.tmpdir)
+2017-12-28 11:30:11 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-12-28 11:30:11 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-12-28 11:30:11 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 3790077952 bytes
+2017-12-28 11:30:11 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2017-12-28 11:30:11 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-12-28 11:30:11 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-12-28 11:30:13 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-12-28 11:30:13 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2017-12-28 11:30:13 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-12-28 11:30:13 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-12-28 11:30:13 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-12-28 11:30:13 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-12-28 11:30:13 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-12-28 11:30:13 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-12-28 11:30:13 DEBUG Cleaner0:76 - java.nio.ByteBuffer.cleaner(): available
+2017-12-28 11:30:13 DEBUG PlatformDependent:71 - Platform: Windows
+2017-12-28 11:30:13 DEBUG PlatformDependent:76 - Java version: 8
+2017-12-28 11:30:13 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2017-12-28 11:30:13 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-12-28 11:30:13 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2017-12-28 11:30:13 DEBUG PlatformDependent:71 - Javassist: unavailable
+2017-12-28 11:30:13 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2017-12-28 11:30:13 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\TQI_BO~1\AppData\Local\Temp (java.io.tmpdir)
+2017-12-28 11:30:13 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-12-28 11:30:13 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-12-28 11:30:13 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 3790077952 bytes
+2017-12-28 11:30:13 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2017-12-28 11:30:13 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-12-28 11:30:13 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 8
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 8
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-12-28 11:30:14 DEBUG SegmentManager:323 - Created segment: Segment[id=1, version=1, index=0, length=0]
+2017-12-28 11:30:14 INFO  NettyServer:121 - Binding to localhost/127.0.0.1:8081
+2017-12-28 11:30:14 DEBUG DefaultChannelId:76 - -Dio.netty.processId: 9924 (auto-detected)
+2017-12-28 11:30:14 DEBUG NetUtil:76 - -Djava.net.preferIPv4Stack: false
+2017-12-28 11:30:14 DEBUG NetUtil:76 - -Djava.net.preferIPv6Addresses: false
+2017-12-28 11:30:14 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-12-28 11:30:14 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2017-12-28 11:30:14 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-12-28 11:30:14 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-12-28 11:30:14 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-12-28 11:30:14 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-12-28 11:30:14 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-12-28 11:30:14 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-12-28 11:30:14 DEBUG Cleaner0:76 - java.nio.ByteBuffer.cleaner(): available
+2017-12-28 11:30:14 DEBUG PlatformDependent:71 - Platform: Windows
+2017-12-28 11:30:14 DEBUG PlatformDependent:76 - Java version: 8
+2017-12-28 11:30:14 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2017-12-28 11:30:14 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-12-28 11:30:14 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2017-12-28 11:30:14 DEBUG PlatformDependent:71 - Javassist: unavailable
+2017-12-28 11:30:14 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2017-12-28 11:30:14 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\TQI_BO~1\AppData\Local\Temp (java.io.tmpdir)
+2017-12-28 11:30:14 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-12-28 11:30:14 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-12-28 11:30:14 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 3790077952 bytes
+2017-12-28 11:30:14 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2017-12-28 11:30:14 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-12-28 11:30:14 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 8
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 8
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-12-28 11:30:14 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-12-28 11:30:14 DEBUG NetUtil:86 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-12-28 11:30:14 DEBUG NetUtil:81 - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2017-12-28 11:30:14 DEBUG SegmentManager:323 - Created segment: Segment[id=1, version=1, index=0, length=0]
+2017-12-28 11:30:14 INFO  NettyServer:121 - Binding to localhost/127.0.0.1:7075
+2017-12-28 11:30:14 DEBUG DefaultChannelId:76 - -Dio.netty.processId: 9936 (auto-detected)
+2017-12-28 11:30:14 DEBUG NetUtil:76 - -Djava.net.preferIPv4Stack: false
+2017-12-28 11:30:14 DEBUG NetUtil:76 - -Djava.net.preferIPv6Addresses: false
+2017-12-28 11:30:15 DEBUG DefaultChannelId:76 - -Dio.netty.machineId: 2c:59:e5:ff:fe:be:73:e4 (auto-detected)
+2017-12-28 11:30:15 DEBUG ThreadLocalRandom:71 - -Dio.netty.initialSeedUniquifier: 0xe6e07499768abc5b
+2017-12-28 11:30:15 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2017-12-28 11:30:15 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2017-12-28 11:30:15 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: pooled
+2017-12-28 11:30:15 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-12-28 11:30:15 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-12-28 11:30:15 DEBUG LoggingHandler:71 - [id: 0xe82741eb] REGISTERED
+2017-12-28 11:30:15 DEBUG LoggingHandler:71 - [id: 0xe82741eb] BIND: localhost/127.0.0.1:8081
+2017-12-28 11:30:15 INFO  NettyServer:128 - Listening at /127.0.0.1:8081
+2017-12-28 11:30:15 DEBUG LoggingHandler:71 - [id: 0xe82741eb, L:/127.0.0.1:8081] ACTIVE
+2017-12-28 11:30:15 INFO  ServerContext:598 - localhost/127.0.0.1:8081 - Transitioning to FOLLOWER
+2017-12-28 11:30:15 DEBUG NetUtil:86 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-12-28 11:30:15 DEBUG NetUtil:81 - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2017-12-28 11:30:15 DEBUG DefaultChannelId:76 - -Dio.netty.machineId: 2c:59:e5:ff:fe:be:73:e4 (auto-detected)
+2017-12-28 11:30:15 DEBUG ThreadLocalRandom:71 - -Dio.netty.initialSeedUniquifier: 0x73ad79894f1aac57
+2017-12-28 11:30:15 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2017-12-28 11:30:15 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2017-12-28 11:30:15 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: pooled
+2017-12-28 11:30:15 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-12-28 11:30:15 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-12-28 11:30:15 DEBUG LoggingHandler:71 - [id: 0x3c84d829] REGISTERED
+2017-12-28 11:30:15 DEBUG LoggingHandler:71 - [id: 0x3c84d829] BIND: localhost/127.0.0.1:7075
+2017-12-28 11:30:15 INFO  NettyServer:128 - Listening at /127.0.0.1:7075
+2017-12-28 11:30:15 DEBUG LoggingHandler:71 - [id: 0x3c84d829, L:/127.0.0.1:7075] ACTIVE
+2017-12-28 11:30:15 INFO  ServerContext:598 - localhost/127.0.0.1:7075 - Transitioning to FOLLOWER
+2017-12-28 11:30:15 DEBUG ClusterState:381 - localhost/127.0.0.1:7075 - Attempting to join via localhost/127.0.0.1:7071
+2017-12-28 11:30:15 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:7071
+2017-12-28 11:30:15 INFO  NettyClient:98 - Connected to localhost/127.0.0.1:7071
+2017-12-28 11:30:15 DEBUG LoggingHandler:71 - [id: 0x99fb4a10, L:/127.0.0.1:7071] RECEIVED: [id: 0x10c37c0f, L:/127.0.0.1:7071 - R:/127.0.0.1:60247]
+2017-12-28 11:30:15 DEBUG Recycler:76 - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2017-12-28 11:30:15 DEBUG Recycler:76 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-12-28 11:30:15 DEBUG Recycler:76 - -Dio.netty.recycler.linkCapacity: 16
+2017-12-28 11:30:15 DEBUG Recycler:76 - -Dio.netty.recycler.ratio: 8
+2017-12-28 11:30:15 DEBUG AbstractByteBuf:81 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-12-28 11:30:15 DEBUG ResourceLeakDetectorFactory:76 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@741ae1c8
+2017-12-28 11:30:15 DEBUG Recycler:76 - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2017-12-28 11:30:15 DEBUG Recycler:76 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-12-28 11:30:15 DEBUG Recycler:76 - -Dio.netty.recycler.linkCapacity: 16
+2017-12-28 11:30:15 DEBUG Recycler:76 - -Dio.netty.recycler.ratio: 8
+2017-12-28 11:30:15 DEBUG AbstractByteBuf:81 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-12-28 11:30:15 DEBUG ResourceLeakDetectorFactory:76 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@215733c9
+2017-12-28 11:30:15 DEBUG LeaderAppender:381 - localhost/127.0.0.1:7071 - Configuring localhost/127.0.0.1:7075
+2017-12-28 11:30:15 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:7075
+2017-12-28 11:30:15 DEBUG LoggingHandler:71 - [id: 0x3c84d829, L:/127.0.0.1:7075] RECEIVED: [id: 0x7ae64645, L:/127.0.0.1:7075 - R:/127.0.0.1:60252]
+2017-12-28 11:30:15 INFO  NettyClient:98 - Connected to localhost/127.0.0.1:7075
+2017-12-28 11:30:15 DEBUG ServerContext:316 - localhost/127.0.0.1:7075 - Set term 4
+2017-12-28 11:30:15 INFO  ServerContext:261 - localhost/127.0.0.1:7075 - Found leader localhost/127.0.0.1:7071
+2017-12-28 11:30:15 DEBUG ClusterState:451 - localhost/127.0.0.1:7075 - Sending server identification to localhost/127.0.0.1:7071
+2017-12-28 11:30:15 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-12-28 11:30:15 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2017-12-28 11:30:15 DEBUG ClusterState:469 - localhost/127.0.0.1:7075 - Failed to update configuration: configuration change already in progress
+2017-12-28 11:30:15 DEBUG FollowerState:60 - localhost/127.0.0.1:7075 - Rejected AppendRequest[term=4, leader=2130714355, logIndex=9, logTerm=4, entries=[0], commitIndex=8, globalIndex=8]: Previous index (9) is greater than the local log's last index (0)
+2017-12-28 11:30:15 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-12-28 11:30:15 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-12-28 11:30:15 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-12-28 11:30:15 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-12-28 11:30:15 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-12-28 11:30:15 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-12-28 11:30:15 DEBUG Cleaner0:76 - java.nio.ByteBuffer.cleaner(): available
+2017-12-28 11:30:15 DEBUG PlatformDependent:71 - Platform: Windows
+2017-12-28 11:30:15 DEBUG PlatformDependent:76 - Java version: 8
+2017-12-28 11:30:15 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2017-12-28 11:30:15 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-12-28 11:30:15 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2017-12-28 11:30:15 DEBUG PlatformDependent:71 - Javassist: unavailable
+2017-12-28 11:30:15 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2017-12-28 11:30:15 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\TQI_BO~1\AppData\Local\Temp (java.io.tmpdir)
+2017-12-28 11:30:15 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-12-28 11:30:15 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-12-28 11:30:15 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 3790077952 bytes
+2017-12-28 11:30:15 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2017-12-28 11:30:15 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-12-28 11:30:15 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-12-28 11:30:15 INFO  ClusterState:394 - localhost/127.0.0.1:7075 - Successfully joined via localhost/127.0.0.1:7071
+2017-12-28 11:30:15 INFO  CopycatServer:684 - Server started successfully!
+2017-12-28 11:30:16 DEBUG FollowerState:85 - localhost/127.0.0.1:8081 - Heartbeat timed out in PT1.47S
+2017-12-28 11:30:16 INFO  ServerContext:598 - localhost/127.0.0.1:8081 - Transitioning to CANDIDATE
+2017-12-28 11:30:16 INFO  CandidateState:64 - localhost/127.0.0.1:8081 - Starting election
+2017-12-28 11:30:16 DEBUG ServerContext:316 - localhost/127.0.0.1:8081 - Set term 1
+2017-12-28 11:30:16 DEBUG ServerContext:345 - localhost/127.0.0.1:8081 - Voted for localhost/127.0.0.1:8081
+2017-12-28 11:30:16 INFO  ServerContext:598 - localhost/127.0.0.1:8081 - Transitioning to LEADER
+2017-12-28 11:30:16 DEBUG CandidateState:227 - localhost/127.0.0.1:8081 - Cancelling election
+2017-12-28 11:30:16 INFO  ServerContext:261 - localhost/127.0.0.1:8081 - Found leader localhost/127.0.0.1:8081
+2017-12-28 11:30:16 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 8
+2017-12-28 11:30:16 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 8
+2017-12-28 11:30:16 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2017-12-28 11:30:16 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2017-12-28 11:30:16 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2017-12-28 11:30:16 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2017-12-28 11:30:16 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2017-12-28 11:30:16 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2017-12-28 11:30:16 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-12-28 11:30:16 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-12-28 11:30:16 INFO  CopycatServer:684 - Server started successfully!
+2017-12-28 11:30:16 DEBUG SegmentManager:323 - Created segment: Segment[id=1, version=1, index=0, length=0]
+2017-12-28 11:30:16 INFO  NettyServer:121 - Binding to localhost/127.0.0.1:9091
+2017-12-28 11:30:16 DEBUG DefaultChannelId:76 - -Dio.netty.processId: 6816 (auto-detected)
+2017-12-28 11:30:16 DEBUG NetUtil:76 - -Djava.net.preferIPv4Stack: false
+2017-12-28 11:30:16 DEBUG NetUtil:76 - -Djava.net.preferIPv6Addresses: false
+2017-12-28 11:30:17 DEBUG NetUtil:86 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-12-28 11:30:17 DEBUG NetUtil:81 - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2017-12-28 11:30:17 DEBUG DefaultChannelId:76 - -Dio.netty.machineId: 2c:59:e5:ff:fe:be:73:e4 (auto-detected)
+2017-12-28 11:30:17 DEBUG ThreadLocalRandom:71 - -Dio.netty.initialSeedUniquifier: 0x51513d19b22ad54a
+2017-12-28 11:30:17 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2017-12-28 11:30:17 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2017-12-28 11:30:17 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: pooled
+2017-12-28 11:30:17 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-12-28 11:30:17 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-12-28 11:30:17 DEBUG LoggingHandler:71 - [id: 0x706af114] REGISTERED
+2017-12-28 11:30:17 DEBUG LoggingHandler:71 - [id: 0x706af114] BIND: localhost/127.0.0.1:9091
+2017-12-28 11:30:17 INFO  NettyServer:128 - Listening at /127.0.0.1:9091
+2017-12-28 11:30:17 DEBUG LoggingHandler:71 - [id: 0x706af114, L:/127.0.0.1:9091] ACTIVE
+2017-12-28 11:30:17 INFO  ServerContext:598 - localhost/127.0.0.1:9091 - Transitioning to FOLLOWER
+2017-12-28 11:30:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 8
+2017-12-28 11:30:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 8
+2017-12-28 11:30:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2017-12-28 11:30:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2017-12-28 11:30:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2017-12-28 11:30:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2017-12-28 11:30:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2017-12-28 11:30:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2017-12-28 11:30:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-12-28 11:30:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-12-28 11:30:18 DEBUG SegmentManager:323 - Created segment: Segment[id=1, version=1, index=0, length=0]
+2017-12-28 11:30:18 INFO  NettyServer:121 - Binding to localhost/127.0.0.1:9095
+2017-12-28 11:30:18 DEBUG DefaultChannelId:76 - -Dio.netty.processId: 10660 (auto-detected)
+2017-12-28 11:30:18 DEBUG NetUtil:76 - -Djava.net.preferIPv4Stack: false
+2017-12-28 11:30:18 DEBUG NetUtil:76 - -Djava.net.preferIPv6Addresses: false
+2017-12-28 11:30:18 DEBUG NetUtil:86 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-12-28 11:30:18 DEBUG NetUtil:81 - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2017-12-28 11:30:18 DEBUG DefaultChannelId:76 - -Dio.netty.machineId: 2c:59:e5:ff:fe:be:73:e4 (auto-detected)
+2017-12-28 11:30:18 DEBUG ThreadLocalRandom:71 - -Dio.netty.initialSeedUniquifier: 0xe3fbfbc98783b35e
+2017-12-28 11:30:18 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2017-12-28 11:30:18 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2017-12-28 11:30:18 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: pooled
+2017-12-28 11:30:18 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-12-28 11:30:18 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-12-28 11:30:18 DEBUG LoggingHandler:71 - [id: 0x82c79836] REGISTERED
+2017-12-28 11:30:18 DEBUG LoggingHandler:71 - [id: 0x82c79836] BIND: localhost/127.0.0.1:9095
+2017-12-28 11:30:18 INFO  NettyServer:128 - Listening at /127.0.0.1:9095
+2017-12-28 11:30:18 DEBUG LoggingHandler:71 - [id: 0x82c79836, L:/127.0.0.1:9095] ACTIVE
+2017-12-28 11:30:18 DEBUG FollowerState:85 - localhost/127.0.0.1:9091 - Heartbeat timed out in PT1.221S
+2017-12-28 11:30:18 INFO  ServerContext:598 - localhost/127.0.0.1:9091 - Transitioning to CANDIDATE
+2017-12-28 11:30:18 INFO  CandidateState:64 - localhost/127.0.0.1:9091 - Starting election
+2017-12-28 11:30:18 INFO  ServerContext:598 - localhost/127.0.0.1:9095 - Transitioning to FOLLOWER
+2017-12-28 11:30:18 DEBUG ClusterState:381 - localhost/127.0.0.1:9095 - Attempting to join via localhost/127.0.0.1:9091
+2017-12-28 11:30:18 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:9091
+2017-12-28 11:30:18 INFO  NettyClient:98 - Connected to localhost/127.0.0.1:9091
+2017-12-28 11:30:18 DEBUG LoggingHandler:71 - [id: 0x706af114, L:/127.0.0.1:9091] RECEIVED: [id: 0x78cc3829, L:/127.0.0.1:9091 - R:/127.0.0.1:60283]
+2017-12-28 11:30:18 DEBUG Recycler:76 - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2017-12-28 11:30:18 DEBUG Recycler:76 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-12-28 11:30:18 DEBUG Recycler:76 - -Dio.netty.recycler.linkCapacity: 16
+2017-12-28 11:30:18 DEBUG Recycler:76 - -Dio.netty.recycler.ratio: 8
+2017-12-28 11:30:18 DEBUG AbstractByteBuf:81 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-12-28 11:30:18 DEBUG ResourceLeakDetectorFactory:76 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2eb3969f
+2017-12-28 11:30:18 DEBUG ServerContext:316 - localhost/127.0.0.1:9091 - Set term 1
+2017-12-28 11:30:18 DEBUG ServerContext:345 - localhost/127.0.0.1:9091 - Voted for localhost/127.0.0.1:9091
+2017-12-28 11:30:18 INFO  ServerContext:598 - localhost/127.0.0.1:9091 - Transitioning to LEADER
+2017-12-28 11:30:18 DEBUG CandidateState:227 - localhost/127.0.0.1:9091 - Cancelling election
+2017-12-28 11:30:18 INFO  ServerContext:261 - localhost/127.0.0.1:9091 - Found leader localhost/127.0.0.1:9091
+2017-12-28 11:30:18 INFO  CopycatServer:684 - Server started successfully!
+2017-12-28 11:30:18 DEBUG Recycler:76 - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2017-12-28 11:30:18 DEBUG Recycler:76 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-12-28 11:30:18 DEBUG Recycler:76 - -Dio.netty.recycler.linkCapacity: 16
+2017-12-28 11:30:18 DEBUG Recycler:76 - -Dio.netty.recycler.ratio: 8
+2017-12-28 11:30:18 DEBUG AbstractByteBuf:81 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-12-28 11:30:18 DEBUG ResourceLeakDetectorFactory:76 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@58d06105
+2017-12-28 11:30:18 DEBUG LeaderAppender:381 - localhost/127.0.0.1:9091 - Configuring localhost/127.0.0.1:9095
+2017-12-28 11:30:18 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:9095
+2017-12-28 11:30:18 INFO  NettyClient:98 - Connected to localhost/127.0.0.1:9095
+2017-12-28 11:30:18 DEBUG LoggingHandler:71 - [id: 0x82c79836, L:/127.0.0.1:9095] RECEIVED: [id: 0x7217085e, L:/127.0.0.1:9095 - R:/127.0.0.1:60284]
+2017-12-28 11:30:18 DEBUG ServerContext:316 - localhost/127.0.0.1:9095 - Set term 1
+2017-12-28 11:30:18 INFO  ServerContext:261 - localhost/127.0.0.1:9095 - Found leader localhost/127.0.0.1:9091
+2017-12-28 11:30:18 DEBUG ClusterState:451 - localhost/127.0.0.1:9095 - Sending server identification to localhost/127.0.0.1:9091
+2017-12-28 11:30:18 DEBUG ClusterState:469 - localhost/127.0.0.1:9095 - Failed to update configuration: configuration change already in progress
+2017-12-28 11:30:18 DEBUG FollowerState:60 - localhost/127.0.0.1:9095 - Rejected AppendRequest[term=1, leader=2130716375, logIndex=3, logTerm=1, entries=[0], commitIndex=2, globalIndex=2]: Previous index (3) is greater than the local log's last index (0)
+2017-12-28 11:30:18 INFO  ClusterState:394 - localhost/127.0.0.1:9095 - Successfully joined via localhost/127.0.0.1:9091
+2017-12-28 11:30:18 INFO  CopycatServer:684 - Server started successfully!
+2017-12-28 11:34:55 ERROR TThreadPoolServer:297 - Error occurred during processing of message.
+java.util.concurrent.CompletionException: io.atomix.copycat.session.ClosedSessionException: session closed
+	at java.util.concurrent.CompletableFuture.reportJoin(CompletableFuture.java:375)
+	at java.util.concurrent.CompletableFuture.join(CompletableFuture.java:1934)
+	at br.com.ufu.thrift.server.Server.createVertex(Server.java:383)
+	at br.com.ufu.thrift.graph.Handler$Processor$createVertex.getResult(Handler.java:1463)
+	at br.com.ufu.thrift.graph.Handler$Processor$createVertex.getResult(Handler.java:1448)
+	at org.apache.thrift.ProcessFunction.process(ProcessFunction.java:39)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:39)
+	at org.apache.thrift.server.TThreadPoolServer$WorkerProcess.run(TThreadPoolServer.java:286)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: io.atomix.copycat.session.ClosedSessionException: session closed
+	at io.atomix.copycat.client.DefaultCopycatClient.submit(DefaultCopycatClient.java:213)
+	... 9 more
+2017-12-28 11:35:20 ERROR TThreadPoolServer:297 - Error occurred during processing of message.
+java.util.concurrent.CompletionException: io.atomix.copycat.session.ClosedSessionException: session closed
+	at java.util.concurrent.CompletableFuture.reportJoin(CompletableFuture.java:375)
+	at java.util.concurrent.CompletableFuture.join(CompletableFuture.java:1934)
+	at br.com.ufu.thrift.server.Server.createVertex(Server.java:383)
+	at br.com.ufu.thrift.graph.Handler$Processor$createVertex.getResult(Handler.java:1463)
+	at br.com.ufu.thrift.graph.Handler$Processor$createVertex.getResult(Handler.java:1448)
+	at org.apache.thrift.ProcessFunction.process(ProcessFunction.java:39)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:39)
+	at org.apache.thrift.server.TThreadPoolServer$WorkerProcess.run(TThreadPoolServer.java:286)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: io.atomix.copycat.session.ClosedSessionException: session closed
+	at io.atomix.copycat.client.DefaultCopycatClient.submit(DefaultCopycatClient.java:213)
+	... 9 more
+2017-12-28 11:42:25 DEBUG FollowerState:85 - localhost/127.0.0.1:7075 - Heartbeat timed out in PT1.126S
+2017-12-28 11:42:25 INFO  FollowerState:134 - localhost/127.0.0.1:7075 - Polling members [ServerMember[type=ACTIVE, status=AVAILABLE, serverAddress=localhost/127.0.0.1:7071, clientAddress=localhost/127.0.0.1:7071]]
+2017-12-28 11:42:25 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:7071
+2017-12-28 11:42:25 DEBUG FollowerState:97 - localhost/127.0.0.1:7075 - Failed to poll a majority of the cluster in PT0.75S
+2017-12-28 11:42:26 DEBUG FollowerState:85 - localhost/127.0.0.1:7075 - Heartbeat timed out in PT1.056S
+2017-12-28 11:42:26 INFO  FollowerState:134 - localhost/127.0.0.1:7075 - Polling members [ServerMember[type=ACTIVE, status=AVAILABLE, serverAddress=localhost/127.0.0.1:7071, clientAddress=localhost/127.0.0.1:7071]]
+2017-12-28 11:42:26 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:7071
+2017-12-28 11:42:27 DEBUG FollowerState:97 - localhost/127.0.0.1:7075 - Failed to poll a majority of the cluster in PT0.75S
+2017-12-28 11:42:28 DEBUG FollowerState:85 - localhost/127.0.0.1:7075 - Heartbeat timed out in PT0.891S
+2017-12-28 11:42:28 INFO  FollowerState:134 - localhost/127.0.0.1:7075 - Polling members [ServerMember[type=ACTIVE, status=AVAILABLE, serverAddress=localhost/127.0.0.1:7071, clientAddress=localhost/127.0.0.1:7071]]
+2017-12-28 11:42:28 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:7071
+2017-12-28 11:42:29 DEBUG FollowerState:97 - localhost/127.0.0.1:7075 - Failed to poll a majority of the cluster in PT0.75S
+2017-12-28 11:42:30 DEBUG FollowerState:85 - localhost/127.0.0.1:7075 - Heartbeat timed out in PT0.815S
+2017-12-28 11:42:30 INFO  FollowerState:134 - localhost/127.0.0.1:7075 - Polling members [ServerMember[type=ACTIVE, status=AVAILABLE, serverAddress=localhost/127.0.0.1:7071, clientAddress=localhost/127.0.0.1:7071]]
+2017-12-28 11:42:30 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:7071
+2017-12-28 11:42:30 DEBUG FollowerState:97 - localhost/127.0.0.1:7075 - Failed to poll a majority of the cluster in PT0.75S
+2017-12-28 11:42:32 DEBUG FollowerState:85 - localhost/127.0.0.1:7075 - Heartbeat timed out in PT1.485S
+2017-12-28 11:42:32 INFO  FollowerState:134 - localhost/127.0.0.1:7075 - Polling members [ServerMember[type=ACTIVE, status=AVAILABLE, serverAddress=localhost/127.0.0.1:7071, clientAddress=localhost/127.0.0.1:7071]]
+2017-12-28 11:42:32 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:7071
+2017-12-28 11:42:33 DEBUG FollowerState:97 - localhost/127.0.0.1:7075 - Failed to poll a majority of the cluster in PT0.75S
+2017-12-28 11:42:33 DEBUG FollowerState:85 - localhost/127.0.0.1:7075 - Heartbeat timed out in PT0.865S
+2017-12-28 11:42:33 INFO  FollowerState:134 - localhost/127.0.0.1:7075 - Polling members [ServerMember[type=ACTIVE, status=AVAILABLE, serverAddress=localhost/127.0.0.1:7071, clientAddress=localhost/127.0.0.1:7071]]
+2017-12-28 11:42:33 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:7071
+2017-12-28 11:42:34 DEBUG FollowerState:97 - localhost/127.0.0.1:7075 - Failed to poll a majority of the cluster in PT0.75S
+2017-12-28 11:42:35 DEBUG FollowerState:85 - localhost/127.0.0.1:7075 - Heartbeat timed out in PT0.873S
+2017-12-28 11:42:35 INFO  FollowerState:134 - localhost/127.0.0.1:7075 - Polling members [ServerMember[type=ACTIVE, status=AVAILABLE, serverAddress=localhost/127.0.0.1:7071, clientAddress=localhost/127.0.0.1:7071]]
+2017-12-28 11:42:35 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:7071
+2017-12-28 11:42:36 DEBUG FollowerState:97 - localhost/127.0.0.1:7075 - Failed to poll a majority of the cluster in PT0.75S
+2017-12-28 11:42:56 DEBUG FollowerState:85 - localhost/127.0.0.1:9095 - Heartbeat timed out in PT0.773S
+2017-12-28 11:42:56 INFO  FollowerState:134 - localhost/127.0.0.1:9095 - Polling members [ServerMember[type=ACTIVE, status=AVAILABLE, serverAddress=localhost/127.0.0.1:9091, clientAddress=localhost/127.0.0.1:9091]]
+2017-12-28 11:42:56 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:9091
+2017-12-28 11:42:56 DEBUG FollowerState:97 - localhost/127.0.0.1:9095 - Failed to poll a majority of the cluster in PT0.75S
+2017-12-28 11:42:58 DEBUG FollowerState:85 - localhost/127.0.0.1:9095 - Heartbeat timed out in PT1.236S
+2017-12-28 11:42:58 INFO  FollowerState:134 - localhost/127.0.0.1:9095 - Polling members [ServerMember[type=ACTIVE, status=AVAILABLE, serverAddress=localhost/127.0.0.1:9091, clientAddress=localhost/127.0.0.1:9091]]
+2017-12-28 11:42:58 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:9091
+2017-12-28 11:42:58 DEBUG FollowerState:97 - localhost/127.0.0.1:9095 - Failed to poll a majority of the cluster in PT0.75S
+2017-12-28 11:42:59 DEBUG FollowerState:85 - localhost/127.0.0.1:9095 - Heartbeat timed out in PT0.99S
+2017-12-28 11:42:59 INFO  FollowerState:134 - localhost/127.0.0.1:9095 - Polling members [ServerMember[type=ACTIVE, status=AVAILABLE, serverAddress=localhost/127.0.0.1:9091, clientAddress=localhost/127.0.0.1:9091]]
+2017-12-28 11:42:59 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:9091
+2017-12-28 11:43:00 DEBUG FollowerState:97 - localhost/127.0.0.1:9095 - Failed to poll a majority of the cluster in PT0.75S
+2017-12-28 11:43:01 DEBUG FollowerState:85 - localhost/127.0.0.1:9095 - Heartbeat timed out in PT0.771S
+2017-12-28 11:43:01 INFO  FollowerState:134 - localhost/127.0.0.1:9095 - Polling members [ServerMember[type=ACTIVE, status=AVAILABLE, serverAddress=localhost/127.0.0.1:9091, clientAddress=localhost/127.0.0.1:9091]]
+2017-12-28 11:43:01 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:9091
+2017-12-28 11:43:02 DEBUG FollowerState:97 - localhost/127.0.0.1:9095 - Failed to poll a majority of the cluster in PT0.75S
+2017-12-28 11:43:03 DEBUG FollowerState:85 - localhost/127.0.0.1:9095 - Heartbeat timed out in PT1.013S
+2017-12-28 11:43:03 INFO  FollowerState:134 - localhost/127.0.0.1:9095 - Polling members [ServerMember[type=ACTIVE, status=AVAILABLE, serverAddress=localhost/127.0.0.1:9091, clientAddress=localhost/127.0.0.1:9091]]
+2017-12-28 11:43:03 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:9091
+2017-12-28 11:43:03 DEBUG FollowerState:97 - localhost/127.0.0.1:9095 - Failed to poll a majority of the cluster in PT0.75S
+2017-12-28 11:43:04 DEBUG FollowerState:85 - localhost/127.0.0.1:9095 - Heartbeat timed out in PT1.172S
+2017-12-28 11:43:04 INFO  FollowerState:134 - localhost/127.0.0.1:9095 - Polling members [ServerMember[type=ACTIVE, status=AVAILABLE, serverAddress=localhost/127.0.0.1:9091, clientAddress=localhost/127.0.0.1:9091]]
+2017-12-28 11:43:04 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:9091
+2017-12-28 11:43:05 DEBUG FollowerState:97 - localhost/127.0.0.1:9095 - Failed to poll a majority of the cluster in PT0.75S

@@ -294,14 +294,14 @@ public class Server extends StateMachine implements Handler.Iface {
         k = hash(k);
         String[] node = (String[]) fingerTable[maxNodes - 1][1]; // Por garantia já escolhe o último índice da FT. Não havendo nenhuma substituição, se conectará ao último nó da FT
         if ((id < next && next >= k) || (id > next && (id < k || k <= next))) {
-            System.out.println(LocalDateTime.now().toLocalTime().toString() + " ID " + id + " repassando requisição para ID " + (int) fingerTable[0][0]);
+            System.out.println(LocalDateTime.now().toLocalTime().toString() + " ID " + id + " requisição para ID " + (int) fingerTable[0][0]);
             node = (String[]) fingerTable[0][1]; // Troca para o primeiro nó da FT se atender à condição do IF
         } else {
             int i;
             for (i = 0; i < maxNodes - 1; i++) {
                 //repassa para o nó i se id(i) <=k && k <= id(i+1) ou, se caso id(i+1) < id(i), o que significa que deu a volta no anel, então repassa se id(i) <= k && k <= id(i+1) + 2^m
                 if (((int) fingerTable[i][0] <= k && k <= (int) fingerTable[i + 1][0]) || (((int) fingerTable[i + 1][0] < (int) fingerTable[i][0]) && (int) fingerTable[i][0] <= k && k <= ((int) Math.pow(2, maxNodes) + (int) fingerTable[i + 1][0]))) {
-                    System.out.println(LocalDateTime.now().toLocalTime().toString() + " ID " + id + " repassando requisição para ID " + (int) fingerTable[i][0]);
+                    System.out.println(LocalDateTime.now().toLocalTime().toString() + " ID " + id + "requisição para ID " + (int) fingerTable[i][0]);
                     node = (String[]) fingerTable[i][1]; // Troca para o índice i caso em algum momento atenda à condição do algoritimo de repasse da FT: succ <= k <= succ+1
                     break;
                 }
@@ -319,7 +319,7 @@ public class Server extends StateMachine implements Handler.Iface {
     @Override
     public boolean blockVertex(int name) throws TException {
         if (isSuccesorNode(name)) {
-            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando bloqueiaVertice(" + name + ")");
+            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando blockVertex(" + name + ")");
             return cluster.submit(new BlockVertex(name)).join();
         } else {
             return connectNextNode(name).blockVertex(name);
@@ -350,7 +350,7 @@ public class Server extends StateMachine implements Handler.Iface {
     @Override
     public void disblockVertex(int name) throws TException {
         if (isSuccesorNode(name)) {
-            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando desbloqueiaVertice(" + name + ")");
+            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando disblockVertex(" + name + ")");
             cluster.submit(new DisblockVertex(name)).join();
         } else {
             connectNextNode(name).disblockVertex(name);
@@ -379,7 +379,7 @@ public class Server extends StateMachine implements Handler.Iface {
             return false;
         }
         if (isSuccesorNode(v.getNome())) {
-            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando createVertice(" + v.getNome() + ")");
+            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando createVertex(" + v.getNome() + ")");
             return cluster.submit(new CreateVertex(v)).join();
         } else {
             return connectNextNode(v.getNome()).createVertex(v);
@@ -404,7 +404,7 @@ public class Server extends StateMachine implements Handler.Iface {
             return false;
         }
         if (isSuccessorEdge(edge.getVertice1(), edge.getVertice2())) {
-            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando createAresta(" + edge.getVertice1() + "," + edge.getVertice2() + ")");
+            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando createEdge(" + edge.getVertice1() + "," + edge.getVertice2() + ")");
             int menor = edge.getVertice1() < edge.getVertice2() ? edge.getVertice1() : edge.getVertice2();
             int maior = edge.getVertice1() > edge.getVertice2() ? edge.getVertice1() : edge.getVertice2();
             try {
@@ -449,7 +449,7 @@ public class Server extends StateMachine implements Handler.Iface {
     @Override
     public Vertex readVertex(int name) throws NullException, TException {
         if (isSuccesorNode(name)) {
-            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando readVertice(" + name + ")");
+            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando readVertex(" + name + ")");
             try {
                 if (blockVertex(name)) {
                     return cluster.submit(new ReadVertex(name)).get();
@@ -481,7 +481,7 @@ public class Server extends StateMachine implements Handler.Iface {
     @Override
     public Edge readEdge(int name1, int name2) throws NullException, TException {
         if (isSuccessorEdge(name1, name2)) {
-            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando readAresta(" + name1 + "," + name2 + ")");
+            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando readEdge(" + name1 + "," + name2 + ")");
             try {
                 return cluster.submit(new ReadEdges(name1, name2)).get();
             } catch (InterruptedException | ExecutionException ex) {
@@ -528,7 +528,7 @@ public class Server extends StateMachine implements Handler.Iface {
     @Override
     public boolean updateVertex(Vertex vertex) throws TException {
         if (isSuccesorNode(vertex.getNome())) {
-            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando updateVertice(" + vertex.getNome() + ")");
+            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando updateVertex(" + vertex.getNome() + ")");
             try {
                 if (blockVertex(vertex.getNome())) {
                     return cluster.submit(new UpdateVertex(vertex)).join();
@@ -559,7 +559,7 @@ public class Server extends StateMachine implements Handler.Iface {
     @Override
     public boolean updateEdge(Edge edge) throws TException {
         if (isSuccessorEdge(edge.getVertice1(), edge.getVertice2())) {
-            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando updateAresta(" + edge.getVertice1() + "," + edge.getVertice2() + ")");
+            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando updateEdge(" + edge.getVertice1() + "," + edge.getVertice2() + ")");
             return cluster.submit(new UpdateEdge(edge)).join();
         } else {
             return connectSuccesorNodeFromEdge(edge.getVertice1(), edge.getVertice2()).updateEdge(edge);
@@ -603,7 +603,7 @@ public class Server extends StateMachine implements Handler.Iface {
     @Override
     public boolean deleteVertex(int name) throws TException {
         if (isSuccesorNode(name)) {
-            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando deleteVertice(" + name + ")");
+            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando deleteVertex(" + name + ")");
             try {
                 if (blockVertex(name)) {
                     deleteEdgesOfVertex(name, behind); // Não aguardo o resultado, a operação VAI ser executada
@@ -634,7 +634,7 @@ public class Server extends StateMachine implements Handler.Iface {
     @Override
     public boolean deleteEdge(int name1, int name2) throws TException {
         if (isSuccessorEdge(name1, name2)) {
-            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando deleteAresta(" + name1 + "," + name2 + ")");
+            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando deleteEdge(" + name1 + "," + name2 + ")");
             return cluster.submit(new DeleteEdge(name1, name2)).join();
         } else {
             return connectSuccesorNodeFromEdge(name1, name2).deleteEdge(name1, name2);
@@ -713,7 +713,7 @@ public class Server extends StateMachine implements Handler.Iface {
      */
     @Override
     public List<Vertex> listVertexOfGraphOnRing(int endId) throws TException {
-        System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando listVerticesDoGrafo()");
+        System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando listVertexOfGraphOnRing()");
         try {
             List<Vertex> lista = cluster.submit(new ListVertexofGraph()).get();
             if (endId != id) {
@@ -759,7 +759,7 @@ public class Server extends StateMachine implements Handler.Iface {
      */
     @Override
     public List<Edge> listEdgesOfGraphOnRing(int endId) throws TException {
-        System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando listArestasDoGrafo()");
+        System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando listEdgesOfGraphOnRing()");
         try {
             List<Edge> lista = cluster.submit(new ListEdgeofGraph()).get();
             if (endId != id) {
@@ -806,7 +806,7 @@ public class Server extends StateMachine implements Handler.Iface {
      */
     @Override
     public List<Edge> listEdgesOfVertexOnRing(int name, int endId) throws NullException, TException {
-        System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando listArestasDoVertice(" + name + ")");
+        System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando listEdgesOfVertexOnRing(" + name + ")");
         try {
             List<Edge> lista = cluster.submit(new ListEdgeofGraph()).get();
             Iterator<Edge> it = lista.iterator();
@@ -833,7 +833,7 @@ public class Server extends StateMachine implements Handler.Iface {
     @Override
     public List<Vertex> listNeighborhoodOfVertex(int name) throws NullException, TException {
         if (isSuccesorNode(name)) {
-            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando listVizinhosDoVertice(" + name + ")");
+            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando listNeighborhoodOfVertex(" + name + ")");
             List<Vertex> result = new ArrayList<>();
             for (Edge a : listEdgesOfVertex(name)) {
                 if (a.isDirec() && a.getVertice2() == name) //significa que o vértice 1 da aresta não é vizinho do vértice 'name'
@@ -875,7 +875,7 @@ public class Server extends StateMachine implements Handler.Iface {
     @Override
     public List<Vertex> smallestPathDistributed(int origin, int destination, List<Vertex> visited) throws NullException, TException {
         if (isSuccesorNode(origin)) {
-            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando listMenorCaminho(" + origin + "," + destination + ")");
+            System.out.println(LocalDateTime.now().toLocalTime().toString() + " Executando smallestPathDistributed(" + origin + "," + destination + ")");
             List<Vertex> smallerPath = new ArrayList<>();
             List<Vertex> actualPath = new ArrayList<>();
             actualPath.addAll(visited);

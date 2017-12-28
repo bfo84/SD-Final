@@ -331,10 +331,10 @@ public class StartClient {
         } catch (ArrayIndexOutOfBoundsException | NumberFormatException ex) {
             System.out.println("Erro nos parâmetros da linha de comando, o sistema não será iniciado. Mensagem de erro: " + ex);
         } catch (TTransportException ex) {
-            System.out.println("Houve um erro de comunicação com o servidor, o sistema será finalizado. Mensagem de erro: " + ex);
+            System.out.println("Erro ao acessar o servidor, o sistema será finalizado. Mensagem de erro: " + ex);
             ex.printStackTrace();
         } catch (TException ex) {
-            System.out.println("Houve um erro inesperado ao executar esta operação, o sistema será finalizado. Mensagem de erro: " + ex);
+            System.out.println("Houve um erro para a operação, o sistema será finalizado. Mensagem de erro: " + ex);
             ex.printStackTrace();
         }
     }
@@ -431,7 +431,7 @@ class Reader {
                 throw new Exception();
             }
         } catch (Exception e) {
-            System.out.print("Opção não reconhecida, digite um número de " + min + " a " + max + ".");
+            System.out.print("Opção inválida, digite um número de " + min + " a " + max + ".");
             option = lerOpcao(min, max);
         }
 

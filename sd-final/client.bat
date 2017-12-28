@@ -1,0 +1,1 @@
+java -jar sd-final-client.jar localhost 7070 localhost 7072 localhost 7074 localhost 8080 localhost 8082 localhost 8084 localhost 9090 localhost 9092 localhost 9094

@@ -28,7 +28,7 @@ public class StartServer {
 			PropertyConfigurator.configure(is);
 			// Fazer um cronômetro para que cada nó aguarde x segundos antes de
 			// iniciar sua execução
-			System.out.println("Ativando servidores...");
+			System.out.println("Inicializando servidores...");
 
 			Server handler = new Server(args);
 
@@ -72,18 +72,18 @@ public class StartServer {
 			// dos threads executarem
 
 			System.out.println(
-					"Servidor THRIFT ativo em " + args[0] + "/" + args[1] + " com o ID " + handler.getServerId() + ".");
-			System.out.println("Servidor RAFT ativo em " + args[0] + "/" + args[2] + ". Líder: " + args[3] + ".");
+					"Servidor THRIFT ativado em " + args[0] + "/" + args[1] + " com o ID " + handler.getServerId() + ".");
+			System.out.println("Servidor RAFT ativado em " + args[0] + "/" + args[2] + ". Líder: " + args[3] + ".");
 
 			t1.join();
 			t2.join();
 
 		} catch (ArrayIndexOutOfBoundsException | NumberFormatException ex) {
-			System.out.println("Erro nos parâmetros da linha de comando.");
+			System.out.println("Erro parâmetros incorretos na linha de comando.");
 		} catch (TException ex) {
 			System.out.println("O servidor THRIFT não pôde ser iniciado.");
 		} catch (InterruptedException ex) {
-			System.out.println("Um servidor foi interrompido.");
+			System.out.println("O servidor parou de funcionar.");
 		} 
 	}
 }
