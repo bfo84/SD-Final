@@ -92,7 +92,7 @@
 							<archive>
 								<manifest>
 									<mainClass>
-										br.com.ufu.thrift.server.StartServer
+										br.com.ufu.thrift.servidor.IniciarServidor
 									</mainClass>
 								</manifest>
 							</archive>
