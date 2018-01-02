@@ -770,3 +770,64 @@ Caused by: io.atomix.copycat.session.ClosedSessionException: session closed
 2017-12-28 11:43:04 INFO  FollowerState:134 - localhost/127.0.0.1:9095 - Polling members [ServerMember[type=ACTIVE, status=AVAILABLE, serverAddress=localhost/127.0.0.1:9091, clientAddress=localhost/127.0.0.1:9091]]
 2017-12-28 11:43:04 INFO  NettyClient:66 - Connecting to localhost/127.0.0.1:9091
 2017-12-28 11:43:05 DEBUG FollowerState:97 - localhost/127.0.0.1:9095 - Failed to poll a majority of the cluster in PT0.75S
+2018-01-01 20:18:47 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2018-01-01 20:18:47 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 16
+2018-01-01 20:18:47 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2018-01-01 20:18:47 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2018-01-01 20:18:47 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2018-01-01 20:18:47 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2018-01-01 20:18:47 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2018-01-01 20:18:47 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2018-01-01 20:18:47 DEBUG Cleaner0:76 - java.nio.ByteBuffer.cleaner(): available
+2018-01-01 20:18:47 DEBUG PlatformDependent:71 - Platform: Windows
+2018-01-01 20:18:47 DEBUG PlatformDependent:76 - Java version: 8
+2018-01-01 20:18:47 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2018-01-01 20:18:47 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2018-01-01 20:18:47 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2018-01-01 20:18:47 DEBUG PlatformDependent:71 - Javassist: unavailable
+2018-01-01 20:18:47 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2018-01-01 20:18:47 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\bfo84\AppData\Local\Temp (java.io.tmpdir)
+2018-01-01 20:18:47 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-01-01 20:18:47 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2018-01-01 20:18:47 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 1890582528 bytes
+2018-01-01 20:18:47 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2018-01-01 20:18:47 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-01-01 20:18:47 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2018-01-01 20:18:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 16
+2018-01-01 20:18:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 16
+2018-01-01 20:18:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2018-01-01 20:18:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2018-01-01 20:18:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2018-01-01 20:18:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2018-01-01 20:18:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2018-01-01 20:18:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2018-01-01 20:18:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-01-01 20:18:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-01-01 20:18:55 DEBUG SegmentManager:323 - Created segment: Segment[id=1, version=1, index=0, length=0]
+2018-01-01 20:18:55 INFO  NettyServer:121 - Binding to localhost/127.0.0.1:7071
+2018-01-01 20:18:55 DEBUG DefaultChannelId:76 - -Dio.netty.processId: 4908 (auto-detected)
+2018-01-01 20:18:55 DEBUG NetUtil:76 - -Djava.net.preferIPv4Stack: false
+2018-01-01 20:18:55 DEBUG NetUtil:76 - -Djava.net.preferIPv6Addresses: false
+2018-01-01 20:18:55 DEBUG NetUtil:86 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2018-01-01 20:18:55 DEBUG NetUtil:81 - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2018-01-01 20:18:55 DEBUG DefaultChannelId:76 - -Dio.netty.machineId: 80:86:f2:ff:fe:a2:36:cc (auto-detected)
+2018-01-01 20:18:55 DEBUG ThreadLocalRandom:71 - -Dio.netty.initialSeedUniquifier: 0xf0bd0b673d3f355a
+2018-01-01 20:18:55 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2018-01-01 20:18:55 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2018-01-01 20:18:55 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: pooled
+2018-01-01 20:18:55 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2018-01-01 20:18:55 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2018-01-01 20:18:55 DEBUG LoggingHandler:71 - [id: 0xd4fa59b6] REGISTERED
+2018-01-01 20:18:55 DEBUG LoggingHandler:71 - [id: 0xd4fa59b6] BIND: localhost/127.0.0.1:7071
+2018-01-01 20:18:55 INFO  NettyServer:128 - Listening at /127.0.0.1:7071
+2018-01-01 20:18:55 DEBUG LoggingHandler:71 - [id: 0xd4fa59b6, L:/127.0.0.1:7071] ACTIVE
+2018-01-01 20:18:55 INFO  ServerContext:598 - localhost/127.0.0.1:7071 - Transitioning to FOLLOWER
+2018-01-01 20:18:56 DEBUG FollowerState:85 - localhost/127.0.0.1:7071 - Heartbeat timed out in PT1.035S
+2018-01-01 20:18:56 INFO  ServerContext:598 - localhost/127.0.0.1:7071 - Transitioning to CANDIDATE
+2018-01-01 20:18:56 INFO  CandidateState:64 - localhost/127.0.0.1:7071 - Starting election
+2018-01-01 20:18:56 DEBUG ServerContext:316 - localhost/127.0.0.1:7071 - Set term 1
+2018-01-01 20:18:56 DEBUG ServerContext:345 - localhost/127.0.0.1:7071 - Voted for localhost/127.0.0.1:7071
+2018-01-01 20:18:56 INFO  ServerContext:598 - localhost/127.0.0.1:7071 - Transitioning to LEADER
+2018-01-01 20:18:56 DEBUG CandidateState:227 - localhost/127.0.0.1:7071 - Cancelling election
+2018-01-01 20:18:56 INFO  ServerContext:261 - localhost/127.0.0.1:7071 - Found leader localhost/127.0.0.1:7071
+2018-01-01 20:18:56 INFO  CopycatServer:684 - Server started successfully!

@@ -23,9 +23,8 @@ public class StartClient {
     public static void main(String[] args) {
 
         try {
-            //Variáveis I/O
-            Reader l = new Reader();
-            Printer i = new Printer();
+            Reader reader = new Reader();
+            Printer printer = new Printer();
             int name, nameB, collor;
             String description;
             float weight;
@@ -35,231 +34,231 @@ public class StartClient {
             //Menu principal
             while (true) {
                 try {
-                    i.printLn(
+                    printer.printLn(
                             "\nOperação:\n\n"
-                            + " 1) CREATE - Vértice\n"
-                            + " 2) READ   - Vértice\n"
-                            + " 3) UPDATE - Vértice\n"
-                            + " 4) DELETE - Vértice\n"
-                            + " 5) CREATE - Edge\n"
-                            + " 6) READ   - Edge\n"
-                            + " 7) UPDATE - Edge\n"
-                            + " 8) DELETE - Edge\n"
-                            + " 9) LIST   - Todos os Vértices\n"
-                            + "10) LIST   - Todas as Edges\n"
-                            + "11) LIST   - Edges de um Vértice\n"
-                            + "12) LIST   - Vértices Vizinhos de um Vértice\n"
-                            + "13) LIST   - Menor Caminho de A até B\n"
-                            + "14) TESTE  - Concorrência com Threads\n"
-                            + "15) TESTE  - Bloquear Vértice\n"
-                            + "16) TESTE  - Desbloquear Vértice\n"
-                            + "17) TESTE  - Distribuição de Vértices\n"
-                            + "18) Fechar Cliente");
-                    option = l.lerOpcao(1, 18);
+                            + " 1) CRIAR UM VÉRTICE\n"
+                            + " 2) LER UM Vértice\n"
+                            + " 3) ATUALIZAR UM VÉRTICE\n"
+                            + " 4) APAGAR UM VÉRTICE\n"
+                            + " 5) CRIAR UMA ARESTA\n"
+                            + " 6) LER UMA ARESTA\n"
+                            + " 7) ATUALIZAR UMA ARESTA\n"
+                            + " 8) APAGAR UMA ARESTA\n"
+                            + " 9) LISTAR TODOS OS VÉRTICES\n"
+                            + "10) LISTAR TODAS AS ARESTAS\n"
+                            + "11) LISTAR AS ARESTAS DE UM VÉRTICE\n"
+                            + "12) LISTAR OS VÉRTICES VIZINHOS DE UM VÉRTICE\n"
+                            + "13) LISTAR O MENOR CAMINHO DE UM NÓ ATÉ OUTRO\n"
+                            + "14) TESTAR CONCORRÊNCIA COM THREADS\n"
+                            + "15) TESTAR BLOQUEIO DE VÉRTICE\n"
+                            + "16) TESTAR DESBLOQUEAR VÉRTICE\n"
+                            + "17) TESTAR DISTRIBUIÇÃO DE VÉRTICES\n"
+                            + "18) FECHAR CLIENTE");
+                    option = reader.readOption(1, 18);
 
                     switch (option) {
                         case 1: {//1) CREATE - Vértice
-                            i.print("Nome: ");
-                            name = l.readInteger();
-                            i.print("Cor: ");
-                            collor = l.readInteger();
-                            i.print("Descrição: ");
-                            description = l.lerTexto();
-                            i.print("Peso: ");
-                            weight = l.readReal();
+                            printer.print("Nome: ");
+                            name = reader.readInteger();
+                            printer.print("Cor: ");
+                            collor = reader.readInteger();
+                            printer.print("Descrição: ");
+                            description = reader.readText();
+                            printer.print("Peso: ");
+                            weight = reader.readReal();
 
                             Vertex v = new Vertex(name, collor, description, weight);
-                            if (conectar(args).createVertex(v)) {
-                                i.printLn("\nO vértice '" + name + "' foi criado com sucesso.");
+                            if (connectClient(args).createVertex(v)) {
+                                printer.printLn("\nO vértice '" + name + "' foi criado com sucesso.");
                             } else {
-                                i.printLn("\nO vértice '" + name + "' não foi criado.");
+                                printer.printLn("\nO vértice '" + name + "' não foi criado.");
                             }
                             break;
                         }
                         case 2: {//2) READ   - Vértice
-                            i.print("Nome: ");
-                            name = l.readInteger();
+                            printer.print("Nome: ");
+                            name = reader.readInteger();
 
                             try {
-                                Vertex v = conectar(args).readVertex(name);
-                                i.printLn(v);
+                                Vertex v = connectClient(args).readVertex(name);
+                                printer.printLn(v);
                             } catch (NullException ex) {
-                                i.printLn("\n" + ex.mensagem);
+                                printer.printLn("\n" + ex.mensagem);
                             }
                             break;
                         }
                         case 3: {//3) UPDATE - Vértice
-                            i.print("Nome: ");
-                            name = l.readInteger();
-                            i.print("Cor: ");
-                            collor = l.readInteger();
-                            i.print("Descrição: ");
-                            description = l.lerTexto();
-                            i.print("Peso: ");
-                            weight = l.readReal();
+                            printer.print("Nome: ");
+                            name = reader.readInteger();
+                            printer.print("Cor: ");
+                            collor = reader.readInteger();
+                            printer.print("Descrição: ");
+                            description = reader.readText();
+                            printer.print("Peso: ");
+                            weight = reader.readReal();
 
                             Vertex v = new Vertex(name, collor, description, weight);
-                            if (conectar(args).updateVertex(v)) {
-                                i.printLn("\nO vértice '" + name + "' foi atualizado com sucesso.");
+                            if (connectClient(args).updateVertex(v)) {
+                                printer.printLn("\nO vértice '" + name + "' foi atualizado com sucesso.");
                             } else {
-                                i.printLn("\nO vértice '" + name + "' não existe.");
+                                printer.printLn("\nO vértice '" + name + "' não existe.");
                             }
                             break;
                         }
                         case 4: {//4) DELETE - Vértice
-                            i.print("Nome: ");
-                            name = l.readInteger();
+                            printer.print("Nome: ");
+                            name = reader.readInteger();
 
-                            if (conectar(args).deleteVertex(name)) {
-                                i.printLn("\nO vértice '" + name + "' foi excluído com sucesso.");
+                            if (connectClient(args).deleteVertex(name)) {
+                                printer.printLn("\nO vértice '" + name + "' foi excluído com sucesso.");
                             } else {
-                                i.printLn("\nO vértice '" + name + "' não existe.");
+                                printer.printLn("\nO vértice '" + name + "' não existe.");
                             }
                             break;
                         }
                         case 5: {//5) CREATE - Edge
-                            i.print("Nome (Vértice A): ");
-                            name = l.readInteger();
-                            i.print("Nome (Vértice B): ");
-                            nameB = l.readInteger();
-                            i.print("Peso: ");
-                            weight = l.readReal();
-                            i.print("Direcionado: ");
-                            direction = l.lerSimNao();
-                            i.print("Descrição: ");
-                            description = l.lerTexto();
+                            printer.print("Nome (Vértice A): ");
+                            name = reader.readInteger();
+                            printer.print("Nome (Vértice B): ");
+                            nameB = reader.readInteger();
+                            printer.print("Peso: ");
+                            weight = reader.readReal();
+                            printer.print("Direcionado: ");
+                            direction = reader.lerSimNao();
+                            printer.print("Descrição: ");
+                            description = reader.readText();
 
                             Edge a = new Edge(name, nameB, weight, direction, description);
-                            if (conectar(args).createEdge(a)) {
-                                i.printLn("\nA aresta '" + name + "," + nameB + "' foi criada com sucesso.");
+                            if (connectClient(args).createEdge(a)) {
+                                printer.printLn("\nA aresta '" + name + "," + nameB + "' foi criada com sucesso.");
                             } else {
-                                i.printLn("\nA aresta '" + name + "," + nameB + "' não foi criada.");
+                                printer.printLn("\nA aresta '" + name + "," + nameB + "' não foi criada.");
                             }
 
                             break;
                         }
                         case 6: {//6) READ   -  Edge
-                            i.print("Nome (Vértice A): ");
-                            name = l.readInteger();
-                            i.print("Nome (Vértice B): ");
-                            nameB = l.readInteger();
+                            printer.print("Nome (Vértice A): ");
+                            name = reader.readInteger();
+                            printer.print("Nome (Vértice B): ");
+                            nameB = reader.readInteger();
 
                             try {
-                                Edge a = conectar(args).readEdge(name, nameB);
-                                i.printLn(a);
+                                Edge a = connectClient(args).readEdge(name, nameB);
+                                printer.printLn(a);
                             } catch (NullException ex) {
-                                i.printLn("\n" + ex.mensagem);
+                                printer.printLn("\n" + ex.mensagem);
                             }
                             break;
                         }
                         case 7: {//7) UPDATE - Edge
-                            i.print("Nome (Vértice A): ");
-                            name = l.readInteger();
-                            i.print("Nome (Vértice B): ");
-                            nameB = l.readInteger();
-                            i.print("Peso: ");
-                            weight = l.readReal();
-                            i.print("Descrição: ");
-                            description = l.lerTexto();
+                            printer.print("Nome (Vértice A): ");
+                            name = reader.readInteger();
+                            printer.print("Nome (Vértice B): ");
+                            nameB = reader.readInteger();
+                            printer.print("Peso: ");
+                            weight = reader.readReal();
+                            printer.print("Descrição: ");
+                            description = reader.readText();
 
                             try {
-                                Edge a = conectar(args).readEdge(name, nameB);
+                                Edge a = connectClient(args).readEdge(name, nameB);
                                 a.setDesc(description);
                                 a.setPeso(weight);
 
-                                if (conectar(args).updateEdge(a)) {
-                                    i.printLn("\nA aresta '" + name + "," + nameB + "' foi atualizada com sucesso.");
+                                if (connectClient(args).updateEdge(a)) {
+                                    printer.printLn("\nA aresta '" + name + "," + nameB + "' foi atualizada com sucesso.");
                                 } else {
-                                    i.printLn("\nA aresta '" + name + "," + nameB + "'não pode ser alterada.");
+                                    printer.printLn("\nA aresta '" + name + "," + nameB + "'não pode ser alterada.");
                                 }
                             } catch (NullException e) {
-                                i.printLn("\nA aresta '" + name + "," + nameB + "' não existe.");
+                                printer.printLn("\nA aresta '" + name + "," + nameB + "' não existe.");
                             }
                             break;
                         }
                         case 8: {//8) DELETE - Edge
-                            i.print("Nome (Vértice A): ");
-                            name = l.readInteger();
-                            i.print("Nome (Vértice B): ");
-                            nameB = l.readInteger();
+                            printer.print("Nome (Vértice A): ");
+                            name = reader.readInteger();
+                            printer.print("Nome (Vértice B): ");
+                            nameB = reader.readInteger();
 
-                            if (conectar(args).deleteEdge(name, nameB)) {
-                                i.printLn("\nA aresta '" + name + "," + nameB + "' foi excluída com sucesso.");
+                            if (connectClient(args).deleteEdge(name, nameB)) {
+                                printer.printLn("\nA aresta '" + name + "," + nameB + "' foi excluída com sucesso.");
                             } else {
-                                i.printLn("\nA aresta '" + name + "," + nameB + "' não existe.");
+                                printer.printLn("\nA aresta '" + name + "," + nameB + "' não existe.");
                             }
                             break;
                         }
                         case 9: {//9) LIST   - Todos os Vértices
-                            List<Vertex> lista = conectar(args).listVertexsOfGraph();
+                            List<Vertex> lista = connectClient(args).listVertexsOfGraph();
                             if (lista.isEmpty()) {
-                                i.printLn("\nNão há vértices.");
+                                printer.printLn("\nNão há vértices.");
                             } else {
-                                i.printLn(lista);
+                                printer.printLn(lista);
                             }
                             break;
                         }
                         case 10: {//10) LIST   - Todas as Edges
-                            List<Edge> lista = conectar(args).listEdgesOfGraph();
+                            List<Edge> lista = connectClient(args).listEdgesOfGraph();
                             if (lista.isEmpty()) {
-                                i.printLn("\nNão há arestas.");
+                                printer.printLn("\nNão há arestas.");
                             } else {
-                                i.printLn(lista);
+                                printer.printLn(lista);
                             }
                             break;
                         }
                         case 11: {//11) LIST   - Edges de um Vértice
-                            i.print("Nome: ");
-                            name = l.readInteger();
+                            printer.print("Nome: ");
+                            name = reader.readInteger();
 
                             try {
-                                List<Edge> lista = conectar(args).listEdgesOfVertex(name);
+                                List<Edge> lista = connectClient(args).listEdgesOfVertex(name);
                                 if (lista.isEmpty()) {
-                                    i.printLn("\nNão há arestas.");
+                                    printer.printLn("\nNão há arestas.");
                                 } else {
-                                    i.printLn(lista);
+                                    printer.printLn(lista);
                                 }
                             } catch (NullException ex) {
-                                i.printLn("\n" + ex.mensagem);
+                                printer.printLn("\n" + ex.mensagem);
                             }
                             break;
                         }
                         case 12: {//12) LIST   - Vértices Vizinhos de um Vértice
-                            i.print("Nome: ");
-                            name = l.readInteger();
+                            printer.print("Nome: ");
+                            name = reader.readInteger();
 
                             try {
-                                List<Vertex> lista = conectar(args).listNeighborhoodOfVertex(name);
+                                List<Vertex> lista = connectClient(args).listNeighborhoodOfVertex(name);
                                 if (lista.isEmpty()) {
-                                    i.printLn("\nNão há vizinhos.");
+                                    printer.printLn("\nNão há vizinhos.");
                                 } else {
-                                    i.printLn(lista);
+                                    printer.printLn(lista);
                                 }
                             } catch (NullException ex) {
-                                i.printLn("\n" + ex.mensagem);
+                                printer.printLn("\n" + ex.mensagem);
                             }
                             break;
                         }
                         case 13: {//13) LIST   - Menor Caminho de A até B
-                            i.print("Nome (Vértice A): ");
-                            name = l.readInteger();
-                            i.print("Nome (Vértice B): ");
-                            nameB = l.readInteger();
+                            printer.print("Nome (Vértice A): ");
+                            name = reader.readInteger();
+                            printer.print("Nome (Vértice B): ");
+                            nameB = reader.readInteger();
 
                             try {
-                                List<Vertex> lista = conectar(args).listSmallerPath(name, nameB);
+                                List<Vertex> lista = connectClient(args).listSmallerPath(name, nameB);
                                 if (lista.isEmpty()) {
-                                    i.printLn("\nNão há um caminho.");
+                                    printer.printLn("\nNão há um caminho.");
                                 } else {
                                     weight = 0;
                                     for (int j = 0; j < lista.size() - 1; j++) {
-                                        weight += conectar(args).readEdge(lista.get(j).getNome(), lista.get(j + 1).getNome()).getPeso();
+                                        weight += connectClient(args).readEdge(lista.get(j).getNome(), lista.get(j + 1).getNome()).getPeso();
                                     }
-                                    i.printLn(lista);
-                                    i.printLn("Peso do caminho: " + weight);
+                                    printer.printLn(lista);
+                                    printer.printLn("Peso do caminho: " + weight);
                                 }
                             } catch (NullException ex) {
-                                i.printLn("\n" + ex.mensagem);
+                                printer.printLn("\n" + ex.mensagem);
                             }
 
                             break;
@@ -290,32 +289,32 @@ public class StartClient {
                             break;
                         }
                         case 15: {//TESTE  - Bloquear Vértice
-                            i.print("Nome: ");
-                            name = l.readInteger();
-                            if (conectar(args).bloqueiaVertex(name)) {
-                                i.printLn("\nVértice " + name + " bloqueado.");
+                            printer.print("Nome: ");
+                            name = reader.readInteger();
+                            if (connectClient(args).bloqueiaVertex(name)) {
+                                printer.printLn("\nVértice " + name + " bloqueado.");
                             } else {
-                                i.printLn("\nO vértice " + name + " não existe.");
+                                printer.printLn("\nO vértice " + name + " não existe.");
                             }
                             break;
                         }
                         case 16: {//TESTE  - Desbloquear Vértice
-                            i.print("Nome: ");
-                            name = l.readInteger();
-                            conectar(args).desbloqueiaVertex(name);
-                            i.printLn("\nComando para desbloquear o vértice " + name + " enviado.");
+                            printer.print("Nome: ");
+                            name = reader.readInteger();
+                            connectClient(args).desbloqueiaVertex(name);
+                            printer.printLn("\nComando para desbloquear o vértice " + name + " enviado.");
                             break;
                         }
                         case 17: {//17) TESTE  - Distribuição de Vértices
-                            i.printLn("Criando 64 vértices.");
+                            printer.printLn("Criando 64 vértices.");
                             for (int j = 0; j < 64; j++) {
-                                conectar(args).createVertex(new Vertex(j, j, "" + j, j));
+                                connectClient(args).createVertex(new Vertex(j, j, "" + j, j));
                             }
                             break;
                         }
                         case 18: {//15) Sair                                                
-                            i.printLn("Saindo...");
-                            l.close();
+                            printer.printLn("Saindo...");
+                            reader.close();
                             System.exit(0);
                             break;
                         }
@@ -339,8 +338,16 @@ public class StartClient {
         }
     }
 
-    // Este método retorna uma conexão ativa para o cliente
-    public static Handler.Client conectar(String[] servers) throws ArrayIndexOutOfBoundsException, NumberFormatException, TTransportException, TException {
+    /**
+     *  Método que retorna uma conexão ativa para o cliente
+     * @param servers
+     * @return
+     * @throws ArrayIndexOutOfBoundsException
+     * @throws NumberFormatException
+     * @throws TTransportException
+     * @throws TException
+     */
+    public static Handler.Client connectClient(String[] servers) throws ArrayIndexOutOfBoundsException, NumberFormatException, TTransportException, TException {
 
         int counter = 0;
         TTransport transport;
@@ -421,7 +428,7 @@ class Reader {
 
     private final Scanner read = new Scanner(System.in);
 
-    public int lerOpcao(int min, int max) {
+    public int readOption(int min, int max) {
         System.out.print("\nOpção: ");
         int option;
 
@@ -432,7 +439,7 @@ class Reader {
             }
         } catch (Exception e) {
             System.out.print("Opção inválida, digite um número de " + min + " a " + max + ".");
-            option = lerOpcao(min, max);
+            option = readOption(min, max);
         }
 
         return option;
@@ -467,7 +474,7 @@ class Reader {
         return opcao;
     }
 
-    public String lerTexto() {
+    public String readText() {
         return read.nextLine();
     }
 
